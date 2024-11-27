@@ -41,7 +41,7 @@
 }
 
 .header__link_active {
-    text-decoration-thickness: 1px;
+    text-decoration:none;
 }
 
 .address {
@@ -151,9 +151,7 @@
 
 .lots {
     position: relative;
-    padding: 179px 24px 146px;
-    min-height: 563px;
-
+    padding: 179px 24px 146px; 
 }
 
 .lots__heading {
@@ -179,8 +177,8 @@
     min-height: 563px;
     width: 334px;
     flex-wrap: wrap;
-
 }
+
 .card-link {
     display: block;
     height: 100%;
@@ -216,7 +214,6 @@
     z-index: 1;
 }
 
-
 .card__text {
     font-weight: 400;
     font-size: 20px;
@@ -244,6 +241,7 @@
 .about {
     padding: 0 24px 181px;
 }
+
 .about__column {
     display: grid;
     grid-template-columns: 334px auto;
@@ -291,7 +289,6 @@
     padding-right: 6px;
     letter-spacing: 0em;
 }
-
 
 .lots__look-more-link {
     padding-left: 40px;
